@@ -17,7 +17,8 @@ In this third notebook on sequence-to-sequence models using PyTorch and TorchTex
     
 ## Preparing Data
 `train_data, valid_data, test_data = Multi30k.splits(exts = ('.de', '.en'), 
-                                                    fields = (SRC, TRG))`
+                                                    fields = (SRC, TRG))`    
+                                                    
 The training data is multi30k                                                    
 
                                                     
