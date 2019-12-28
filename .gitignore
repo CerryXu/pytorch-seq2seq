@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/.data/multi30k
+/.idea
+/tut3-model.pt
