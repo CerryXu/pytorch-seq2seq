@@ -192,7 +192,7 @@ def epoch_time(start_time, end_time):
     return elapsed_mins, elapsed_secs
 
 
-N_EPOCHS = 20
+N_EPOCHS = 10
 CLIP = 1
 
 best_valid_loss = float('inf')
@@ -223,3 +223,6 @@ model.load_state_dict(torch.load('tut3-model.pt'))
 test_loss = evaluate(model, test_iterator, criterion)
 
 print(f'| Test Loss: {test_loss:.3f} | Test PPL: {math.exp(test_loss):7.3f} |')
+
+
+
