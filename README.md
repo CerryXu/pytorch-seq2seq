@@ -6,14 +6,14 @@ In this third notebook on sequence-to-sequence models using PyTorch and TorchTex
 
 ## The project structure
 * pytorch-seq2seq:
-    - .data 
+    >- .data 
     >- multi30k   
-    - model
+    >- model
     >>- attention.py    
     >>- decoder.py    
     >>- encoder.py    
     >>- seq2seq.py    
-    - train.py
+    >- train.py
     
 ## Preparing Data
 `train_data, valid_data, test_data = Multi30k.splits(exts = ('.de', '.en'), 
